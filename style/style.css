@@ -29,10 +29,12 @@ header span{
     color: #f9faf8;
 }
 
-nav{
+header nav{
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
+
 
 img{
     width: 200px;
