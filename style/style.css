@@ -16,35 +16,71 @@ body header{
     align-items: center;
     justify-content: space-around;
     padding-top: 10px;
+    background: #1f2937;
+}
+
+header span{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header nav a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+header nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 20%;
 }
 
 div.this{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    padding: 80px 0px;
+    background: #1f2937;
 }
 
 .text{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    width: 40%;
+/* width pra alinhar verticalmente a imagem e o texto inicial ao header logo e aos links */
+    width: 41%;
+    text-align: left;
 }
 
-.text h2{
+.text h1{
     font-size: 48px;
     color: #f9faf8;
-    text-align: center;
+    line-height: 50px;
 }
 
 .text span{
     font-size: 18px;
     color: #e5e7eb;
-    text-align: center;
+    margin-bottom: 6px;
+    padding-right: 40px;
+    font-weight: 200;
+}
+
+.text button{
+    border: none;
+    border-radius: 5px;
+    color: #f9faf8;
+    background: #3882f6;
+    width: 20%;
+    height: 40px;
 }
 
 img{
-    width: 200px;
+    width: 330px;
 }
+
