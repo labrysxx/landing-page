@@ -5,6 +5,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+body header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 img{
     width: 200px;
 }
