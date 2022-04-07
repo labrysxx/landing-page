@@ -35,8 +35,26 @@ header nav{
     text-decoration: none;
 }
 
+header div:nth-child(3),
+header div:nth-child(4){
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 img{
     width: 200px;
 }
 
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main div.information h2{
+    font-size: 36px;
+    color: #1f2937;
+}
