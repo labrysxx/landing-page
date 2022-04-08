@@ -183,6 +183,7 @@ main div.images span{
     border-radius: 3px;
     width: 20%;
     height: 40px;
+    cursor: pointer;
 }
 
 #call{
