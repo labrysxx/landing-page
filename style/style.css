@@ -49,38 +49,85 @@ div.this{
 
 .text{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-/* width pra alinhar verticalmente a imagem e o texto inicial ao header logo e aos links */
+/*delimitar o tamanho do elemento*/
     width: 41%;
-    text-align: left;
+    text-align: center;
 }
 
 .text h1{
     font-size: 48px;
     color: #f9faf8;
     line-height: 50px;
+    text-align: center;
+    width: 100%;
 }
 
 .text span{
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 6px;
-    padding-right: 40px;
     font-weight: 200;
 }
 
 .text button{
-    border: none;
+    border-style: none;
     border-radius: 5px;
     color: #f9faf8;
     background: #3882f6;
     width: 20%;
     height: 40px;
+    margin-top: 20px;
 }
 
-img{
-    width: 330px;
+.text button:hover{
+    background: #2569d6;
+    transition: all 0.3s;
 }
 
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main div.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+main div.information h2{
+    padding: 50px 0 40px 0;
+}
+
+main div.pics{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+}
+main div.images{
+    width: 200px;
+    margin-right: 40px;
+}
+
+main div.images:nth-child(4){
+    margin-right: 0;
+}
+
+main div.images img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+main div.images span{
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+}
