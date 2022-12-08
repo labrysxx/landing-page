@@ -42,10 +42,6 @@ nav, .intro {
     gap: 50px;
 }
 
-.intro-text {
-    width: 50%;
-}
-
 .intro-text h1 {
     font-size: 48px;
     font-weight: bolder;
