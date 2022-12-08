@@ -1,3 +1,4 @@
-# CSS - Flexbox
+# Landing Page
 
-Projeto do curso Odin Project voltado pra criação do layout de uma landing-page focado em treinar os usos de flexbox.
+Nesse projeto eu treinei principalmente minhas habilidades com CSS.
+
